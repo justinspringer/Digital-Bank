@@ -1,23 +1,22 @@
 # Digital Bank
 
-Digital Bank is a sample application that was developed for exploratory purposes to examine development frameworks and techniques. The application is an example online digital banking application with integrations into other services.
+Digital Bank is a sample application that was developed for exploratory purposes to examine development frameworks and techniques. The application is an example online digital banking application with integrations into other services. 
 
-## Getting Started
+## Getting Started 
 
-* Using either an Eclipse IDE or IntelliJ, import the source code as an Existing Maven Project.  
 
-## Prerequisites
+## Prerequisites  
 
-* Install [Java SDK](https://openjdk.java.net/)
+* Install [Java SDK](https://openjdk.java.net/)   
   * [Java SDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) - Required only for JUnit tests using CodeSV mock services.
 * Install [Apache Maven](https://maven.apache.org/install.html)
 * Install [Eclipse IDE](https://www.eclipse.org/ide/), [Spring Tools Suite](https://spring.io/tools) or [IntelliJ](https://www.jetbrains.com/idea/)
-
+ 
 ## Executing Tests
 
-* JUnit Tests - Execute "mvn clean test"
+* JUnit Tests - Execute "mvn clean test" 
 * Serenity BDD Acceptance Tests - Execute "mvn clean verify"
-  * Serenity BDD tests use Cucumber Feature file definitions. 
+  * Serenity BDD tests use Cucumber Feature file definitions.  
     * UI Tests are executed using the Selenium Java framework.
     * API Test are executed using the Rest Assured Java framework.
   * Use '-Dcucumber.options="--tags {tag}"' maven command line option to filter test execution based on Feature or Scenario tags defined within the [feature files](src/test/resources/features).
@@ -50,7 +49,7 @@ Digital Bank can be deployed as a single standalone application service or be de
     * [MySQL Database Deployment](docker-compose/docker-compose-mysql.yml)
     * [PostgreSQL Database Deployment](docker-compose/docker-compose-postgres.yml)
 
-## Interfaces
+## Interfaces 
 
 * Web Interface @ http://{hostname}:{port}/bank
   * Sample user data is created when the application is started. User credentials for these users are as follows:
