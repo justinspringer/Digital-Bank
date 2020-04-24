@@ -66,7 +66,7 @@ Digital Bank can be deployed as a single standalone application service or be de
 * [Spring Boot](https://spring.io/projects/spring-boot) - Application Framework
 * [Thymeleaf](https://www.thymeleaf.org/) - Server-Side Java Template
 * [Swagger](https://swagger.io/) - API Documentation
-* [Apache Maven](https://maven.apache.org/) - Software Project Management
+* [Apache Maven](https://maven.apache.org/) - Software Project Management 
 * [Apache Tomcat](http://tomcat.apache.org/) - Application Server / Servlet Engine
 * [Apache Artemis](https://activemq.apache.org/components/artemis/) - Messaging Broker
 * [H2 Database Engine](https://www.h2database.com/html/main.html) - In-Memory Database
